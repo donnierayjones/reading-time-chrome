@@ -1,13 +1,14 @@
 {
   "name": "Reading Time",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "manifest_version": 2,
   "description": "Add a reading time indicator to Instapaper",
   "content_scripts": [
     {
       "matches": [
         "http://www.instapaper.com/*",
-        "https://www.instapaper.com/*"
+        "https://www.instapaper.com/*",
+        "http://www.readability.com/*"
       ],
       "js": ["jquery.js", "script.js"]
     }
