@@ -1,4 +1,4 @@
-## Reading Time for Instapaper
+## Reading Time for Instapaper & Readability
 
 ![promotional](http://f.cl.ly/items/3e2V2b3U1B1f0Y3e1Z07/promotional.png)
 
@@ -6,9 +6,11 @@ Today's blog posts are too long. See just how too long they are with
 this Google Chrome extension. Decide within seconds if you don't have
 enough minutes (or hours?) to read an article.
 
-## Screenshot
+## Screenshots
 
-![screenshot](http://f.cl.ly/items/292u0V22200D3O1h2G3U/reading-time-original.png)
+![instapaper](http://f.cl.ly/items/0Q2a2G182G3w353E0s1L/instapaper-screenshot-export.png)
+
+![readability](http://f.cl.ly/items/0L0i1X0G3L3d1S0u3N0r/readability-screenshot-export.png)
 
 ## Inspiration
 
