@@ -1,6 +1,6 @@
 {
   "name": "Reading Time",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "manifest_version": 2,
   "description": "Add a reading time indicator to Instapaper",
   "content_scripts": [

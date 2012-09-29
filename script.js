@@ -5,7 +5,7 @@
   var scrollTimeout;
   var fadeTimeout;
   var $container = $('#story');
-  var style = "display:none;position:fixed;right:0;top:0;text-align:right;padding:0.25em 0.5em;margin:2em 0.75em 0.75em;background-color:rgba(244, 244, 244, 0.9);border-radius:10px;";
+  var style = "display:none;position:fixed;right:0;top:40px;text-align:right;padding:0.25em 0.5em;margin:0.25em 0.75em;background-color:rgba(244, 244, 244, 0.9);border-radius:10px;";
   $container.prepend('<h1 id="reading-time" style="' + style + '"></h1>');
 
   if($container.length < 1){
