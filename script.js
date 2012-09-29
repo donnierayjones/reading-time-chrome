@@ -16,7 +16,9 @@
     var scrollTop = $(window).scrollTop();
     var count = 0;
 
-    $('*', $container).each(function() {
+    var contentContainers = $(':not(code, i, b, strong, em, div, a, span, img)', $container);
+
+    contentContainers.each(function() {
       var $el = $(this);
       var offset = $el.offset();
       if (scrollTop <= offset.top) {
