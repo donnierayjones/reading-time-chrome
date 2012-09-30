@@ -2,7 +2,6 @@
   // > The average adult reads prose text at 250 to 300 words per minute
   // http://en.wikipedia.org/wiki/Words_per_minute
   var WORDS_PER_MINUTE = 275;
-  var TOP_CLASS_NAME = "top";
   var READING_TIME_ID = "reading-time";
 
   var scrollTimeout;
@@ -33,6 +32,7 @@
 
   var site = sites[domain];
 
+  // if no container, bail out now!
   if(site.container.length < 1){
     return;
   }
@@ -88,6 +88,7 @@
     showReadingTime(minutes);
   };
 
+  // show minutes on scroll
   $(window).scroll(function(){
     if(scrollTimeout) {
       clearTimeout(scrollTimeout);
@@ -100,5 +101,6 @@
     }, 50);
   });
 
+  // show minutes on page load
   countAndShowReadingTime();
 })();
